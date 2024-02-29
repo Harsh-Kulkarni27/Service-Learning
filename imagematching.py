@@ -4,20 +4,20 @@ import random
 import os
 
 # Define the folder path where all images are located
-folder_path = "E:/College/Internship and Service Learning/Lower KG School TLM/images/"
+folder_path = "D:\Code\Service_Learning\Service-Learning\images"
 
 # Define a dictionary of images and their corresponding names
 images = {
-    "cat": "cat.png", 
-    "dog": "dog.png", 
-    "bear": "bear.png", 
-    "bird": "bird.png", 
-    "cow": "cow.png", 
-    "duck": "duck.png", 
-    "fish": "fish.png", 
-    "frog": "frog.png",
-    "lion": "lion.png", 
-    "wolf": "wolf.png"
+    "cat : ಬೆಕ್ಕು": "cat.png", 
+    "dog : ನಾಯಿ ": "dog.png", 
+    "bear : ಕರಡಿ": "bear.png", 
+    "bird : ಹಕ್ಕಿ": "bird.png", 
+    "cow : ಹಸು ": "cow.png", 
+    "duck : ಬಾತು": "duck.png", 
+    "fish : ಮೀನು": "fish.png", 
+    "frog : ಮೆಂಢು": "frog.png",
+    "lion : ಸಿಂಹ": "lion.png", 
+    "wolf : ನರಿ": "wolf.png"
 }
 
 # Concatenate folder path with image filenames
