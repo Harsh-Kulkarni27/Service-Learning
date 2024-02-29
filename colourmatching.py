@@ -4,16 +4,16 @@ import random
 
 # Define a dictionary of colors and their corresponding names
 colors = {
-    "red": "#FF0000",
-    "blue": "#0000FF",
-    "green": "#00FF00",
-    "yellow": "#FFFF00",
-    "pink": "#FFC0CB",
-    "orange": "#FFA500",
-    "purple": "#800080",
-    "brown": "#A52A2A",
-    "gray": "#808080",
-    "black": "#000000",
+    "red : ಕೆಂಪು": "#FF0000",
+    "blue : ನೀಲಿ": "#0000FF",
+    "green : ಹಸಿರು": "#00FF00",
+    "yellow : ಹಳದಿ": "#FFFF00",
+    "pink : ಗುಲಾಬಿ": "#FFC0CB",
+    "orange : ಕಿಂಚಿತ್ ಕೆಂಪು": "#FFA500",
+    "purple : ನೇರಳ್ಳಿ": "#800080",
+    "brown : ಕಂದು": "#A52A2A",
+    "gray : ಬೂದು": "#808080",
+    "black : ಕಪ್ಪು": "#000000",
 }
 
 # Concatenate folder path with image filenames
@@ -66,13 +66,13 @@ color_object = tk.Label(root, width=30, height=2)
 color_object.pack(pady=(10, 10))
 
 # Create the option buttons
-options_frame = tk.Frame(root, width=600, height=100)
+options_frame = tk.Frame(root, width=800, height=200)
 options_frame.pack(pady=(0, 10))
 
 # Create option buttons with larger font size
 option_buttons = []
 for i in range(4):
-    option_button = tk.Button(options_frame, text="", font=("Arial", 16), width=15, height=2,
+    option_button = tk.Button(options_frame, text="", font=("Arial", 16), width=25, height=2,
                               command=lambda idx=i: check_answer(option_buttons[idx]["text"]))
     option_button.pack(side=tk.LEFT, padx=10)
     option_buttons.append(option_button)
